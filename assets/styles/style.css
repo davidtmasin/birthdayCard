@@ -2,7 +2,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&display=swap');
 
         body {
-            background: url('/parabens/assets/img/background.jpg') ;
+            background: url('../img/background.jpg') ;
             background-size: contain;
             box-sizing: border-box;
             padding-top: 1.8rem;
