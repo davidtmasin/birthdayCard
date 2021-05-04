@@ -11,7 +11,7 @@
         .container {
             box-sizing: border-box;
 
-            background: url(https://image.freepik.com/vetores-gratis/design-plano-de-fundo-de-aniversario_23-2148468261.jpg);
+            background: url('https://image.freepik.com/vetores-gratis/design-plano-de-fundo-de-aniversario_23-2148468261.jpg');
             background-size: contain;
             box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
             -webkit-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
