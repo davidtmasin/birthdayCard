@@ -2,21 +2,24 @@
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&display=swap');
 
         body {
-            background: tomato;
+            background: url('/parabens/assets/img/background.jpg') ;
+            background-size: contain;
             box-sizing: border-box;
+            padding-top: 1.8rem;
         }
 
         .container {
             box-sizing: border-box;
 
             background: url(https://image.freepik.com/vetores-gratis/design-plano-de-fundo-de-aniversario_23-2148468261.jpg);
+            background-size: contain;
             box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
             -webkit-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
             -moz-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
             max-width: 600px;
             max-height: 800px;
 
-            border: 2px solid white;
+            border: 2px solid rgb(146, 97, 97);
             border-radius: 15px;
             text-align: justify;
             display: block;
@@ -30,7 +33,7 @@
         .content {
             box-sizing: border-box;
 
-            background: rgba(0, 0, 0, 0.671);
+            background: rgba(0, 0, 0, 0.801);
             
             border-radius: 1.2rem;
             display: block;
@@ -38,10 +41,12 @@
             margin-right: auto;
             margin-top: .5rem;
             margin-bottom: .5rem;
+
+            height: 25rem;
         }
 
         #text {
-            padding: .4rem .8rem;
+            padding: 0.008rem 1rem;
             color: white;
         }
 
@@ -82,8 +87,8 @@
         }
 
         footer{
-            margin-top: 6px;
-            margin-bottom: 5px;
+            margin-top: 1.2rem;
+            margin-bottom: 1rem;
             color: white;
             font-family: Itim;
             text-align: center;

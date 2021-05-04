@@ -1,0 +1,34 @@
+{
+    "parabens":[
+        {
+            "nomeAniversariante": "David Teixeira",
+            "idade": "29",
+            "textoPronto": "Desejo-te muitas felicidades, paz, alegria e muito sucesso. Parabéns!"
+        },
+        {
+            "nomeAniversariante": "Fulano 1",
+            "idade": "29",
+            "textoPronto": "Parabéns! Desejo que a saúde, a paz e o amor sejam seus convidados de honra para hoje e todos os dias da sua vida."
+        },
+        {
+            "nomeAniversariante": "Fulano 2",
+            "idade": "29",
+            "textoPronto": "Neste dia especial, aquilo que desejo para você é que os anos passem, mas nunca levem seu sorriso e esse olhar repleto de esperança. Feliz aniversário!"
+        },
+        {
+            "nomeAniversariante": "Fulano 3",
+            "idade": "29",
+            "textoPronto": "Feliz Aniversário! Que a celebração da vida permaneça eternamente nos seus dias."
+        },
+        {
+            "nomeAniversariante": "Fulano 4",
+            "idade": "29",
+            "textoPronto": "Não se espante se hoje a luz do sol brilhar mais e a das estrelas encandear a sua noite, pois toda natureza se alegra pelo seu aniversário. Parabéns"
+        },
+        {
+            "nomeAniversariante": "Fulano 5",
+            "idade": "29",
+            "textoPronto": "Parabéns, meu amor! Que minha vida seja a sua e seus sonhos sejam os meus para juntos encontrarmos a felicidade."
+        },
+    ]
+}
