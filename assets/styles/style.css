@@ -5,13 +5,13 @@
             background: url('../img/background.jpg') ;
             background-size: auto auto;
             box-sizing: border-box;
-            padding-top: 1.8rem;
+            padding-top: 1.2rem;
         }
 
         .container {
             box-sizing: border-box;
 
-            background: url('https://image.freepik.com/vetores-gratis/design-plano-de-fundo-de-aniversario_23-2148468261.jpg');
+            background: url('../img/wallpapper_aniversario.jpg');
             background-size: cover;
             box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
             -webkit-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
@@ -99,6 +99,21 @@
             color: inherit;
         }
 
+        footer #download{
+            cursor: pointer;
+            height: 3rem;
+            border-radius: 1.5rem;
+            font-family: 'Architects Daughter';
+            font-weight: bold;
+            transition: all ease .5s;
+        }
+
+        footer #download:hover{
+            transition: all ease .6s;
+            filter: brightness(.75);
+        }
+
+
 @media only screen and (min-width: 768px){
     .container{
         width: 45%;
@@ -109,11 +124,11 @@
         width: 85%;
         height: 75%;
 
-        margin-top: 5rem;
+        margin-top: 4.5rem;
     }
 
     #text {
-        padding: 1.8rem;
+        padding: .5rem 1rem;
     }
 
     #text h1 {

@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feliz Aniversário 🎈🎁</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/scripts/html2canvas.js"></script>
 </head>
 
 <body>
-    <section class="container">
+    <section class="container" id="htmltoimage">
         <div class="content">
             <div id="text">
                 <h1>Parabéns, <span id="aniversariante">Suyanne</span></h1>
@@ -23,8 +24,18 @@
             </div>
         </div>
     </section>
-    <footer>Criado por <a href="https://github.com/davidtmasin" target="_blank"
-            title="Olá, eu sou um easter egg 🥚">David Teixeira</a>.</footer>
+    
+    <footer>
+        <button onclick="downloadimage()" id="download"><p>DOWNLOAD</p></button>
+
+        <p>Criado por   
+            <a href="https://github.com/davidtmasin" target="_blank"
+            title="Olá, eu sou um easter egg 🥚">
+            David Teixeira
+            </a>.
+        </p>
+
+    </footer>
     <script src="./assets/scripts/app.js"></script>
 </body>
 
