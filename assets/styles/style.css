@@ -1,0 +1,144 @@
+        @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&display=swap');
+
+        body {
+            background: tomato;
+            box-sizing: border-box;
+        }
+
+        .container {
+            box-sizing: border-box;
+
+            background: url(https://image.freepik.com/vetores-gratis/design-plano-de-fundo-de-aniversario_23-2148468261.jpg);
+            box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
+            -webkit-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
+            -moz-box-shadow: 13px 14px 5px -2px rgba(0, 0, 0, 0.43);
+            max-width: 600px;
+            max-height: 800px;
+
+            border: 2px solid white;
+            border-radius: 20px;
+            text-align: justify;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 2.2rem;
+        }
+
+        .content {
+            box-sizing: border-box;
+            
+            background: rgba(0, 0, 0, 0.671);
+            
+            border-radius: 2rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+
+        #text {
+            padding: .8rem;
+            color: white;
+        }
+
+        #text h1 {
+            font-family: Itim;
+            font-size: 1.8rem;
+        }
+
+
+        #text h1,
+        h2 {
+            text-align: center;
+        }
+
+        #text p {
+            font-size: 1.2rem;
+            font-family: 'Architects Daughter';
+            line-height: 1.3rem;
+        }
+
+        #felizaniversario {
+            transition: all ease .3s;
+        }
+
+        #felizaniversario:hover {
+            transform: translateX(10px);
+            transition: all ease .3s;
+            
+            background: rgb(131, 58, 180);
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            border-radius: 6px;
+            
+            width: 170px;
+            height: 20px;
+            padding: 6px;
+            font-size: 1.34rem;
+            
+        }
+
+        footer{
+            margin-top: 6px;
+            margin-bottom: 5px;
+            color: white;
+            font-family: Itim;
+            text-align: center;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 45%;
+        height: 35rem;
+    }
+
+    .content{
+        width: 85%;
+        height: 75%;
+
+        margin-top: 5rem;
+    }
+
+    #text {
+        padding: 1.8rem;
+    }
+
+    #text h1 {
+        font-size: 2.3rem;
+    }
+
+    #text h2 {
+        font-size: 1.8rem;
+    }
+
+    #text p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    #felizaniversario {
+            cursor: pointer;
+            transition: all ease .3s;
+        }
+
+        #felizaniversario:hover {
+            transform: translateX(60px);
+            transition: all ease .3s;
+            
+            background: rgb(131, 58, 180);
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            border-radius: 20px;
+            
+            width: 300px;
+            height: 25px;
+            padding: 20px;
+            font-size: 2.34rem;
+            
+        }
+}
