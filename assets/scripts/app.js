@@ -1,6 +1,6 @@
 const somParabens = new Audio();
 somParabens.src = 'https://www.myinstants.com/media/sounds/parabens-da-xuxa.mp3';
-somParabens.play()
+somParabens.load()
 
 
 let nomeAniversariante = prompt('De quem é o aniversário?')
